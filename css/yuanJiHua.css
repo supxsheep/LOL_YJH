@@ -1,0 +1,630 @@
+/*右侧导航栏*/
+.side-bar{
+    background: url(../images/side-bar.png) no-repeat;
+    width: 232px;
+    height: 656px;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    z-index: 100;
+}
+.side-bar li{
+    width: 232px;
+    height: 60px;
+    margin-bottom: 6px;
+    transition: opacity 0.1s ease-in-out;
+    cursor: pointer;
+}
+.side-bar a{
+    display: block;
+    color: #fff3d4;
+    font: bold 20px / 1.2 'Microsoft YaHei';
+    padding: 7px 0 0 15px;
+    font-size: 20px;
+}
+.side-bar i{
+    display: block;
+    color: #9ba1a9;
+    font: 12px / 1.2 'Microsoft YaHei';
+    padding: 5px 0 0 15px;
+    font-size: 14px;
+}
+.side-bar .li1:hover{
+    background: url(../images/side-bar-on.png) no-repeat;
+    background-position-y: 0;
+}
+.side-bar .li2:hover{
+    background: url(../images/side-bar-on.png) no-repeat;
+    background-position-y: -66px;
+}
+.side-bar .li3:hover{
+    background: url(../images/side-bar-on.png) no-repeat;
+    background-position-y: -132px;
+}
+.side-bar .li4:hover{
+    background: url(../images/side-bar-on.png) no-repeat;
+    background-position-y: -198px;
+}
+.side-bar .li5:hover{
+    background: url(../images/side-bar-on.png) no-repeat;
+    background-position-y: -264px;
+}
+.side-bar .li6:hover{
+    background: url(../images/side-bar-on.png) no-repeat;
+    background-position-y: -330px;
+}
+.side-bar .li7:hover{
+    background: url(../images/side-bar-on.png) no-repeat;
+    background-position-y: -396px;
+}
+.side-bar .li8:hover{
+    background: url(../images/side-bar-on.png) no-repeat;
+    background-position-y: -462px;
+}
+.side-bar .li9:hover{
+    background: url(../images/side-bar-on.png) no-repeat;
+    background-position-y: -528px;
+}
+/*头部 video 总览*/
+.header{
+    max-width: 1920px;
+    min-width: 1400px;
+    height: 820px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    background: url(../images/header-bg1.jpg) no-repeat center top;
+    overflow: hidden;
+}
+.header video{
+    position: absolute;
+    top: -130px;
+}
+.header .logo{
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+.header .solgan{
+    width: 1032px;
+    height: 233px;
+    background: url(../images/slogan.png) no-repeat;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header .top-bar{
+    width: 749px;
+    height: 81px;
+    position: absolute;
+    top: 310px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url(../images/header-nav-bg.png) no-repeat;
+}
+.top-bar .li-1{
+    margin-left: 100px;
+    background: url(../images/header-nav.png) no-repeat;
+    background-position-x: 5px;
+}
+.top-bar li{    
+    width: 80px;
+    height: 69px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.li-2{
+    background: url(../images/header-nav.png) no-repeat;
+    background-position-x: -85px;
+}
+.li-3{
+    background: url(../images/header-nav.png) no-repeat;
+    background-position-x: -175px;
+}
+.li-4{
+    background: url(../images/header-nav.png) no-repeat;
+    background-position-x: -265px;
+}
+.li-5{
+    background: url(../images/header-nav.png) no-repeat;
+    background-position-x: -355px;
+}
+.li-6{
+    background: url(../images/header-nav.png) no-repeat;
+    background-position-x: -445px;
+}
+.li-1:hover{
+    background: url(../images/header-nav-on.png) no-repeat;
+    background-position-x: 5px;
+}
+.li-2:hover{
+    background: url(../images/header-nav-on.png) no-repeat;
+    background-position-x: -85px;
+}
+.li-3:hover{
+    background: url(../images/header-nav-on.png) no-repeat;
+    background-position-x: -175px;
+}
+.li-4:hover{
+    background: url(../images/header-nav-on.png) no-repeat;
+    background-position-x: -265px;
+}
+.li-5:hover{
+    background: url(../images/header-nav-on.png) no-repeat;
+    background-position-x: -355px;
+}
+.li-6:hover{
+    background: url(../images/header-nav-on.png) no-repeat;
+    background-position-x: -445px;
+}
+
+/* 源计划--莫德凯撒-----------------------------------------*/
+.wrap1{
+    min-width: 1400px;
+    height: 1812px;
+    background: url(../images/bg1.jpg) no-repeat center top;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1920px;
+    margin-top: -1px;
+}
+/*hero 1-2 5-6共同*/
+.main-text{
+    width: 1400px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main-text .hero-name{
+    margin-top: 200px;
+}
+.main-text .hero-video1{
+    width: 225px;
+    height: 107px;
+    position: absolute;
+    top: 427px;
+    left: 0;
+    background: url(../images/wrap1-btn-video.png) no-repeat;
+}
+/* 售价处1 */
+.main-text .hero-price1{
+    margin-top: 330px;
+}
+.main-text .hero-price1 .p1{
+    display: inline-block;
+    font-size: 120px;
+    line-height: 130px;
+    color: #fff;
+    font-family: 'sellnum-4';
+}
+.main-text .hero-price1 .p2{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: 5px;
+    color: #fff;
+    font-family: 'sellnum-4';
+}
+.main-text .hero-price1 .btn-buy{
+    display: block;
+    margin-top: 10px;
+}
+/* 售价处2 */
+.main-text .hero-price2{
+    width: 1400px;
+    height: 440px;
+    margin-top: 140px;
+    position: relative;
+}
+.main-text .hero-price2 .cont-1 p{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: bold;
+}
+.main-text .hero-price2 .cont-1 span{
+    margin-left: 22px;
+    color: #b6b2c6;
+}
+.main-text .hero-price2 .cont-2{
+    position: absolute;
+    top: -60px;
+    left: 400px;
+}
+.main-text .hero-price2 .cont-3{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+.main-text .hero-price2 .cont-3 .p1{
+    display: inline-block;
+    font-size: 120px;
+    line-height: 130px;
+    color: #fff;
+    font-family: 'sellnum-4';
+}
+.main-text .hero-price2 .cont-3 .p2{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: 5px;
+    color: #fff;
+    font-family: 'sellnum-4';
+}
+.main-text .hero-price2 .cont-3 .btn-buy{
+    display: block;
+    margin-top: 10px;
+}
+/* 下拉框 -- 炫彩皮肤处 */
+.main-text .bottom-btn1{
+    width: 906px;
+    height: 125px;
+    background: url(../images/wrap1-content-bg.png) no-repeat;
+    position: relative;
+    margin-left: 250px;
+}
+.ani-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 26px;
+    left: 406px;
+    animation: btn 2s infinite linear;
+}
+@keyframes btn {
+    25%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+        
+}
+
+/* 源计划--雷克顿----------------------------------------------------- */
+.wrap2{
+    min-width: 1400px;
+    height: 1791px;
+    background: url(../images/bg2.jpg) no-repeat center top;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1920px;
+    margin-top: -1px;
+}
+.main-text .hero-video2{
+    width: 225px;
+    height: 107px;
+    position: absolute;
+    top: 427px;
+    left: 0;
+    background: url(../images/wrap2-btn-video.png) no-repeat;
+}
+.main-text .bottom-btn2{
+    width: 906px;
+    height: 125px;
+    background: url(../images/wrap2-content-bg.png) no-repeat;
+    position: relative;
+    margin-left: 250px;
+}
+
+/*源计划--维鲁斯 -------------------------------------------------------*/
+.wrap3{
+    min-width: 1400px;
+    height: 1768px;
+    background: url(../images/bg3.jpg) no-repeat center top;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1920px;
+    margin-top: -1px;
+}
+.main-text .hero-name-r{
+    margin-top: 200px;
+    margin-left: 1115px;
+}
+.main-text .hero-video3{
+    width: 225px;
+    height: 107px;
+    position: absolute;
+    top: 427px;
+    right: 0;
+    background: url(../images/wrap3-btn-video.png) no-repeat;
+}
+.main-text .hero-price1-r{
+    margin-top: 330px;
+    margin-left: 1115px;
+}
+.main-text .hero-price1-r .p1{
+    display: inline-block;
+    font-size: 120px;
+    line-height: 130px;
+    color: #fff;
+    font-family: 'sellnum-4';
+}
+.main-text .hero-price1-r .p2{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: 5px;
+    color: #fff;
+    font-family: 'sellnum-4';
+}
+.main-text .hero-price1-r .btn-buy{
+    display: block;
+    margin-top: 10px;
+}
+.main-text .bottom-btn3{
+    width: 906px;
+    height: 125px;
+    background: url(../images/wrap3-content-bg.png) no-repeat;
+    position: relative;
+    margin-left: 250px;
+}
+
+/*源计划--塞拉斯------------------------------------------------------------*/
+.wrap4{
+    min-width: 1400px;
+    height: 2540px;
+    background: url(../images/bg4.jpg) no-repeat center top;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1920px;
+    margin-top: -1px;
+}
+.main-text .hero-name-r1{
+    margin-top: 200px;
+    margin-left: 1000px;
+}
+.main-text .hero-video4{
+    width: 225px;
+    height: 107px;
+    position: absolute;
+    top: 540px;
+    right: 0;
+    background: url(../images/wrap4-btn-video.png) no-repeat;
+}
+.main-text .bottom-btn4{
+    width: 906px;
+    height: 125px;
+    background: url(../images/wrap4-content-bg.png) no-repeat;
+    position: relative;
+    margin-left: 250px;
+}
+.main-text .hero-price1-r1{
+    margin-top: 330px;
+    margin-left: 1115px;
+}
+.zzSkin{
+    width: 1272px;
+    height: 704px;
+    margin-top: 624px;
+}
+.zzSkin video{
+    width: 100%;
+    height: 100%;
+}
+.zz-price{
+    width: 320px;
+    height: 660px;
+    position: absolute;
+    bottom: 0;
+    right: 270px;
+}
+.zz-price .get-method{
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+.zz-price .price{
+    width: 300px;
+    height: 200px;
+    background: url(../images/spr.png) no-repeat;
+    background-position-x:-160px ;
+    position: absolute;
+    left: 0;
+    bottom: 250px;
+}
+.zz-price .price-cont{
+    font-size: 20px;
+    color: #e9d5c1;
+    position: absolute;
+    right: 14px;
+    bottom: 250px;
+}
+
+/*源计划--赛纳------------------------------------------------------------*/
+.wrap5{
+    min-width: 1400px;
+    height: 1801px;
+    background: url(../images/bg5.jpg) no-repeat center top;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1920px;
+    margin-top: -1px;
+}
+.main-text .hero-video5{
+    width: 225px;
+    height: 107px;
+    position: absolute;
+    top: 427px;
+    left: 0;
+    background: url(../images/wrap5-btn-video.png) no-repeat;
+}
+.main-text .bottom-btn5{
+    width: 906px;
+    height: 125px;
+    background: url(../images/wrap5-content-bg.png) no-repeat;
+    position: relative;
+    margin-left: 250px;
+}
+
+/*源计划--瑟庄妮-----------------------------------------------------------*/
+.wrap6{
+    min-width: 1400px;
+    height: 1789px;
+    background: url(../images/bg6.jpg) no-repeat center top;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1920px;
+    margin-top: -1px;
+}
+.main-text .hero-video6{
+    width: 225px;
+    height: 107px;
+    position: absolute;
+    top: 427px;
+    left: 0;
+    background: url(../images/wrap6-btn-video.png) no-repeat;
+}
+.main-text .bottom-btn6{
+    width: 906px;
+    height: 125px;
+    background: url(../images/wrap6-content-bg.png) no-repeat;
+    position: relative;
+    margin-left: 250px;
+}
+
+/* 源计划--终极礼包------------------------------------------------------------- */
+.wrap7{
+    min-width: 1400px;
+    height: 1421px;
+    background: url(../images/bg7.jpg) no-repeat center top;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1920px;
+    margin-top: -1px;
+    overflow: hidden;
+} 
+.wrap7 .cont{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.img-box{
+    width: 1270px;
+    height: 544px;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.img-box div{
+    float: left;
+    margin-right: 6px;
+}
+.img-box .top-2{
+    margin-top: 35px;
+}
+.img-box .top-3{
+    margin-top: 70px;
+}
+.defence{
+    width: 390px;
+    height: 192px;
+    position: absolute;
+    top: 630px;
+    left: 50%;
+    transform: translateX(-30%);
+}
+.defence div{
+    display: inline-block;
+    vertical-align: 60px;
+    /* width: 231px; */
+    height: 33px;
+    line-height: 33px;
+    font-size: 20px;
+    color: #fff;
+    text-indent: 14px;
+}
+.hero-price{
+    display: inline-block;
+    position: absolute;
+    top: 850px;
+    left: 25%;
+}
+.hero-price .p1{
+    display: inline-block;
+    font-size: 120px;
+    line-height: 130px;
+    color: #fff;
+    font-family: 'sellnum-4';
+}
+.hero-price .p2{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: 5px;
+    color: #fff;
+    font-family: 'sellnum-4';
+}
+.hero-price .btn-buy{
+    display: block;
+    margin-top: 10px;
+}
+.hero-price .btn-buy{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.wrap7 .cont1{
+    position: absolute;
+    top: 830px;
+    left: 920px;
+}
+.wrap7 .cont1 p{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: bold;
+}
+.wrap7 .cont1 span{
+    margin-left: 22px;
+    color: #b6b2c6;
+}
+.wrap7 .cont2{
+    width: 830px;
+    height: 335px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.wrap7 .cont2 .img-top{
+    position: absolute;
+    top: 85px;
+    left: 280px;
+}
+.wrap7 .cont2 .defence1{
+    position: absolute;
+    top: 20px;
+}
+.cont2-price{
+    position: absolute;
+    top: 160px;
+    left: 280px;
+}
+.cont2-price .p1{
+    display: inline-block;
+    font-size: 120px;
+    line-height: 130px;
+    color: #fff;
+    font-family: 'sellnum-4';
+}
+.cont2-price .p2{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: 5px;
+    color: #fff;
+    font-family: 'sellnum-4';
+}
+.cont2-price .btn-buy{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+}
